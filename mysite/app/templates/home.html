@@ -1,0 +1,10 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<h1>captcha</h1>
+<form action="" method="POST">
+    {% csrf_token %}
+    {{form.captcha}}
+    <input type="submit" value="submit">
+</form>
+{% endblock %}
