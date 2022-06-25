@@ -2,20 +2,12 @@
 
 # objectif du projet
 
-    - créer une vérification humaine (CAPTCHA)
-
     - utiliser le framework django
 
-    - utiliser dotenv pour securisé la secret_key
+    - garder la base des projets précedents ( https://github.com/dbOg7/django-config-backend )
 
-    - configurer les settings_specific pour securisé les données sensible (exemple base de données)
+    - créer une vérification humaine (CAPTCHA)
 
-# installer le projet
+    - renvoi une HttpResponse en cas de succès ou échec
 
-    - pip install -r requirements.txt
-
-    - creer un fichier .env a la racine du git
-
-    - coller la secret_key
-
-    
+   
